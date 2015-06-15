@@ -66,3 +66,6 @@ Con eso ya dispongo que sus hijos esten centrados verticalmente
 
 
 
+
+
+Si quiero poner elementos uno al lado del otro sin dejar espacios, antes de usar floats es mejor usar inline-block, que lo puedo combinar con vertical-align para mas funcionalidad.

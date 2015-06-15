@@ -1,0 +1,66 @@
+* {
+box-sizing:border-box;
+margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
+.content-gral {
+	border: 3px solid green;
+}
+
+.content-uno {
+	float: left;
+	margin: 0;
+}
+
+.content-dos{
+	
+	margin-left: 300px;
+}
+
+
+nav {
+	border: 2px solid green;
+	display: inline-block;
+	width: 300px;
+}
+
+
+.sec-uno {
+	border: 2px solid green;
+	padding: 10px 0;
+	
+    
+}
+
+.sec-dos {
+	border: 2px solid green;
+	padding: 10px 0;
+	
+    }
+
+.sec-tres {
+	border: 2px solid green;
+	padding: 10px 0;
+	
+    
+}
+
+
+@media (max-width: 800px){
+
+
+.content-uno {
+	float: none;
+}
+
+.content-dos {
+	margin-left: 0;
+}
+
+
+}
+
