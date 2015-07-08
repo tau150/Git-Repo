@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<script type='text/javascript'>
+
+
+
+/*Parte 1
+Crear un programa que dada una variable cadena, cree una nueva variable e invierta la posición de sus caracteres.*/
+
+var cadenaOriginal = prompt('Ingrese cadena a invertir');
+var i= cadenaOriginal.length -1;
+var cadenaInvertida= "";
+
+
+
+// con while
+while (i > -1){
+ 
+ cadenaInvertida += cadenaOriginal[i];
+
+ i --;
+
+}
+
+console.log(cadenaInvertida);*/
+
+
+// con for
+
+for(i; i > -1 ; i--){
+
+    cadenaInvertida += cadenaOriginal[i];
+
+
+}
+
+console.log(cadenaInvertida);
+
+
+
+/*Parte 2
+Crear un programa que dada un variable arr, cree una nueva variable e invierta la posición de
+sus elementos.*/
+
+
+
+var arr= [1,2,3,4,5,6,7,8,9];
+var i= arr.length - 1;
+var arrInvertido=[];
+
+
+//con for
+
+for(i; i > -1 ; i--){
+
+    arrInvertido.push(arr[i]);
+
+
+}
+
+console.log(arrInvertido);*/
+
+
+// con while
+
+while (i > -1){
+ 
+ arrInvertido.push(arr[i]);
+
+ i --;
+
+}
+
+console.log(arrInvertido);
+
+
+
+</script>
+</body>
+</html>
